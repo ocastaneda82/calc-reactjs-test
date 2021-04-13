@@ -6,7 +6,6 @@ const Button = ({ type, text, clickHandler }) => (
   <button
     className={type}
     onClick={() => {
-      console.log("onClick en el Button");
       clickHandler(text);
     }}
   >
